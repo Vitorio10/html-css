@@ -6,7 +6,7 @@
     padding: 0px;
 }
 body, html{
-    background-color: #318CF5;
+    background-color: #8db9ec;
 
 }
 
@@ -18,8 +18,20 @@ header > h1{
     padding: 10px;
     text-align: center;
 }
-menu{
+span#burger{
+    background-color: #2ebfe7;
+    color: white;
     display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+span#burger:hover{
+    background-color: white;
+    color: aqua;
+}
+menu{
+    display: none;
 }
 menu > ul{
     list-style-type: none;
